@@ -12,7 +12,11 @@ group :development, :test do
   gem 'pry'
   gem 'capybara'
   gem 'rspec-rails'
-  gem 'shoulda'
+  gem 'shoulda' 
+  gem 'annotate'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-byebug'
 end
 
 group :development do
